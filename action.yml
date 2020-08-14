@@ -1,0 +1,8 @@
+name: 'Pangian WP Engine'
+description: 'Push to WP Engine'
+outputs:
+  time: # id of output
+    description: 'The time ran'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
